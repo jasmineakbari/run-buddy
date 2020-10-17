@@ -234,11 +234,6 @@ section {
 
   .contact h2 {
     color: #fce138;
-    display: block;
-    font-size: 55px;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
-    border-bottom: 3px solid #39a6b2;
   }
 
   .contact-info iframe {
@@ -246,7 +241,7 @@ section {
     height: 400px;
   }
 
-  .contact-info {
+  .contact-info div {
     width: 410px;
     display: inline-block;
     vertical-align: top;
