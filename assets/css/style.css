@@ -335,16 +335,33 @@ section {
     flex: 1;
 }
 
-  .trainers {
-      width: 100%;
-      margin: 0 auto;
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-around;
+.trainers {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-size: cover;
 }
 
-  .trainer img {
-      width: 100%;
+.trainer-img {
+    width: 100%;
+    min-height: 300px;
+    display: flex;
+    padding: 15px;
+    align-items: flex-end;
+}
+
+.trainer-1 {
+    background-image: url("./assets/images/trainer-1.jpg");
+  }
+
+.trainer-2 {
+    background-image: url("./assets/images/trainer-2.jpg");
+}
+
+.trainer-3 {
+    background-image: url("./assets/images/trainer-3.jpg");
 }
 
   .trainer-bio {
